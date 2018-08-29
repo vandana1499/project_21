@@ -1,0 +1,91 @@
+body
+{
+   
+   font-size: 150px;
+   font-family: 'Montserrat', sans-serif;
+   color:#111;
+   text-align: center;
+   letter-spacing: 5px;
+   background:#0b24fc;
+   padding-top: 7%;
+   text-shadow: 0 0 8px #ff0000
+}
+
+.box
+{
+    overflow: hidden;
+    padding: 10px;
+    width: 97%;
+    height: 482px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.one,.two,.three,.four,.five,.six,.seven
+{
+    animation: scrollUp 7s infinite  alternate;
+}
+.two
+{
+    animation-delay: .15s;
+
+}
+
+.three{
+    animation-delay: .3s;
+}
+
+.four{
+
+    animation-delay: .36s;
+}
+
+.five
+{
+    animation-delay: .45s;
+}
+
+.six{
+    animation-delay: .6s;
+}
+.seven{
+    animation-delay: .75s;
+}
+
+
+#scroller >div[id]
+{
+    overflow: hidden; 
+    height: 41px;
+
+}
+@keyframes scrollUp {
+    from {
+     
+              transform: translateY(0);
+    }
+    to {
+      
+              transform: translateY(-83.444%);
+    }
+  }
+
+  @keyframes scrollUpp {
+    from {
+     
+              transform: translateY(0);
+    }
+    to {
+   
+              transform: translateY(-80%);
+    }
+  }
+
+  #scroller {
+    
+     animation: scrollUpp 25s infinite forwards;
+}
+  
+
+
+  

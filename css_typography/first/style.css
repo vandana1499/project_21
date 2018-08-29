@@ -1,0 +1,53 @@
+body{
+    
+    display: flex;
+    justify-content: center;align-items: center;
+    background: radial-gradient(#111 ,#000);;
+    height:100vh;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+h1
+{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: calc(3em+4vw);
+   text-transform: uppercase;
+   background-image: linear-gradient( 
+    #cedbe9 0%,
+    #aac5de 17%,
+    #6199c7 50%,
+    #3a84c4 51%,
+    #419ad6 59%,
+    #26558b 100%);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color: transparent; 
+
+}
+
+/*
+body {  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
+  background: radial-gradient(#111, #000);
+}
+
+h1 {  
+  font-family: 'Montserrat', sans-serif;  
+  font-weight: 700;
+  font-size: calc(3em + 4vw);
+  text-transform: uppercase;
+  background-image: linear-gradient( 
+    #cedbe9 0%,
+    #aac5de 17%,
+    #6199c7 50%,
+    #3a84c4 51%,
+    #419ad6 59%,
+    #26558b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}*/
